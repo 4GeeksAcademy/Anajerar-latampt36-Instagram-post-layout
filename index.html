@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Instagram post. Second version using flexbox to position icons -->
 <html>
     <head>
         <meta charset="UTF-8" />
@@ -17,31 +18,35 @@
         <title>ANajerar Instagram Template</title>
     </head>
     <div class="post">
-        <div class="postheader">
-            <div>
-                <i class="fa-brands fa-html5"></i>
+
+        <div class="posticons">
+            <div class="rightItems">
+                    <i class="fa-brands fa-html5 font50"></i>
+                <div class="headertitle">
+                    <p class="roboto-bold">HTML5</p>
+                    <p class="roboto-regular">Anajerar</p>
+                </div>
             </div>
-            <div id="headertitle">
-                <p class="roboto-bold">HTML5</p>
-                <p class="roboto-regular">Anajerar</p>
-            </div>
-            <div id="threedots">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <div class="bookmark font50">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
             </div>
         </div>
+
         <div class="postimage">
             <img src="https://noyb.eu/sites/default/files/styles/landscape_xl/public/2023-10/basic_meta_6.png?itok=KDP0XtO9">
         </div>
-        <div class="posticons">
-            
-                <i class="fa-regular fa-heart" style="width:6%;"></i>
-                <i class="fa-regular fa-comment" style="width:6%;"></i>
-                <i class="fa-regular fa-paper-plane" style="width:6%;"></i>
-            
-            <div id="bookmark">
+
+        <div class="posticons font30">
+                <div class="rigthItems">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            <div class="bookmark">
                 <i class="fa-regular fa-bookmark"></i>
             </div>
         </div>
+        
         <div class="postbody">
             <p class="roboto-regular">Liked by 
                 <span class="roboto-bold"> 4Geeks Academy, HTML5, web</span> and 
